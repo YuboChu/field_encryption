@@ -1,0 +1,24 @@
+{
+    "name": "cyb/field_encryption",
+    "description": "数据库字段加密解密",
+    "autoload": {
+        "psr-4": {
+            "FieldEncryption\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "chuyubo",
+            "email": "1026390645@qq.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "illuminate/database": "^6.0",
+        "ext-openssl": "*"
+    }
+    ,
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    }
+}

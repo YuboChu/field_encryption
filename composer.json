@@ -1,5 +1,5 @@
 {
-    "name": "cyb/field_encryption",
+    "name": "chuyubo/field_encryption",
     "description": "数据库字段加密解密",
     "autoload": {
         "psr-4": {

@@ -1,4 +1,4 @@
-#基于laravel实现数据库敏感字段加密
+# 基于laravel实现数据库敏感字段加密
 ## 原理：
 #### 1.替代db.factory ,将对应的 factory 指向自定义 FieldEncryptionConnectionFactory, 将对应的mysqlConnection 指向自定义FieldEncryptionMysqlConnection,最终将Builder替换成自定义FieldBuilder
 #### 2.改写 FieldBuilder 中get,insert,update 等方法，将需要加密的字段进行加密，读取时将加密字段进行解密

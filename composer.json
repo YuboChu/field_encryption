@@ -16,9 +16,11 @@
         "php": "^7.2",
         "illuminate/database": "^6.0",
         "ext-openssl": "*"
-    }
-    ,
+    },
+
     "require-dev": {
         "roave/security-advisories": "dev-latest"
-    }
+    },
+
+    "license": "MIT"
 }
